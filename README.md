@@ -1,44 +1,48 @@
-# Astro Landing Page <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
+# 模板介绍
 
-> An Astro + Tailwind CSS example/template for landing pages.
+| 项目信息       | 详情                                                                                  |
+| -------------- | ------------------------------------------------------------------------------------- |
+| 原始项目地址   | [ mhyfritz/astro-landing-page](https://github.com/mhyfritz/astro-landing-page)                                 |
+| 原始项目Stars   | [![GitHub stars](https://img.shields.io/github/stars/mhyfritz/astro-landing-page?style=social)](https://github.com/mhyfritz/astro-landing-page/stargazers) |
+ 
+---
 
-<div align="center">
+# Astro 登陆页面 <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
+> Astro + Tailwind CSS 登陆页面示例/模板。
 
-</div>
 
-![Screenshots of Astro Landing Page](screenshots.jpg)
+![Astro 登陆页面截图](screenshots.jpg)
 
-## Features
+## 功能
 
-- 💨 Tailwind CSS for styling
-- 🎨 Themeable
-  - CSS variables are defined in `src/styles/theme.css` and mapped to Tailwind classes (`tailwind.config.cjs`)
-- 🌙 Dark mode
-- 📱 Responsive (layout, images, typography)
-- ♿ Accessible (as measured by https://web.dev/measure/)
-- 🔎 SEO-enabled (as measured by https://web.dev/measure/)
-- 🔗 Open Graph tags for social media sharing
-- 💅 [Prettier](https://prettier.io/) setup for both [Astro](https://github.com/withastro/prettier-plugin-astro) and [Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- 💨 Tailwind CSS 用于样式
+- 🎨 可主题化
+- CSS 变量在 `src/styles/theme.css` 中定义并映射到 Tailwind 类 (`tailwind.config.cjs`)
+- 🌙 暗模式
+- 📱 响应式（布局、图像、排版）
+- ♿ 可访问（以 https://web.dev/measure/ 为衡量标准）
+- 🔎 支持 SEO（以 https://web.dev/measure/ 为衡量标准）
+- 🔗 用于社交媒体共享的 Open Graph 标签
+- 💅 [Prettier](https://prettier.io/) 为 [Astro](https://github.com/withastro/prettier-plugin-astro) 和 [Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) 设置
 
-## Commands
+## 命令
 
-| Command                | Action                                            |
+| 命令 | 操作 |
 | :--------------------- | :------------------------------------------------ |
-| `npm install`          | Install dependencies                              |
-| `npm run dev`          | Start local dev server at `localhost:4321`        |
-| `npm run build`        | Build your production site to `./dist/`           |
-| `npm run preview`      | Preview your build locally, before deploying      |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check`  |
-| `npm run astro --help` | Get help using the Astro CLI                      |
-| `npm run format`       | Format code with [Prettier](https://prettier.io/) |
-| `npm run clean`        | Remove `node_modules` and build output            |
+| `npm install` | 安装依赖项 |
+| `npm run dev` | 在 `localhost:4321` 启动本地开发服务器 |
+| `npm run build` | 将生产站点构建到 `./dist/` |
+| `npm run preview` | 在部署之前在本地预览构建 |
+| `npm run astro ...` | 运行 CLI 命令，如 `astro add`、`astro check` |
+| `npm run astro --help` | 获取使用 Astro CLI 的帮助 |
+| `npm run format` | 使用 [Prettier](https://prettier.io/) 格式化代码 |
+| `npm run clean` | 删除 `node_modules` 并构建输出 |
 
-## Credits
+## 致谢
 
-- astronaut image
-  - source: https://github.com/withastro/astro-og-image; note: this repo is not available anymore
-- moon image
-  - source: https://unsplash.com/@nasa
-- other than that, a lot of material (showcase data, copy) was taken from official Astro sources, in particular https://astro.build/blog/introducing-astro/ and https://github.com/withastro/astro.build
+- 宇航员图像
+- 来源：https://github.com/withastro/astro-og-image； 注意：此 repo 不再可用
+- 月球图像
+- 来源：https://unsplash.com/@nasa
+- 除此之外，很多材料（展示数据、副本）都取自 Astro 官方来源，特别是 https://astro.build/blog/introducing-astro/ 和 https://github.com/withastro/astro.build
